@@ -28,8 +28,9 @@ const People = () => {
 
     return (
         <div>
-            {users.map((user) => (
+            {users.map((user, idx: number) => (
                 <UserCard
+                    key={idx}
                     username={user.username}
                     profilePhoto={user.profilePhoto}
                     _id={user._id}

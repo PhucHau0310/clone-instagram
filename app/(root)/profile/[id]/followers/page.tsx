@@ -33,6 +33,7 @@ const ProfileFollowers = () => {
     return (
         <div>
             <ProfileCard
+                key={profile.username}
                 _id={profile._id}
                 username={profile.username}
                 profilePhoto={profile.profilePhoto}

@@ -50,8 +50,9 @@ const SearchUser = () => {
             </div>
             <h1 className="text-2xl font-bold my-4">Search User</h1>
 
-            {userValue.map((user: UserData) => (
+            {userValue.map((user: UserData, idx: number) => (
                 <UserCard
+                    key={idx}
                     username={user.username}
                     profilePhoto={user.profilePhoto}
                     _id={user._id}

@@ -58,8 +58,9 @@ const ProfileCard = (props: Profile) => {
             </div>
 
             <div className="my-8">
-                {tabs.map((tab) => (
+                {tabs.map((tab, idx) => (
                     <Link
+                        key={idx}
                         className={`rounded-lg mr-6 px-4 py-2 ${
                             props.activeTabs === tab.name
                                 ? 'bg-cyan-600'

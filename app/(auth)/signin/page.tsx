@@ -120,7 +120,7 @@ const SignIn = () => {
                     </div>
 
                     <div className="mt-4 px-8 py-3 w-3/5 bg-[#272323a3] rounded-xl shadow-lg shadow-gray-900 flex flex-row items-center justify-center">
-                        <p>Don't have an account ?</p>
+                        <p>Don t have an account ?</p>
                         <Link href="/signup">
                             <button className="text-[#5d7eb8] ml-2">
                                 Sign Up
